@@ -2,7 +2,7 @@ package infoblox
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform/helper/schema"
 	ibclient "github.com/infobloxopen/infoblox-go-client"
