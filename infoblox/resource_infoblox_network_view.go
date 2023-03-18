@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/infobloxopen/infoblox-go-client"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func resourceNetworkView() *schema.Resource {
